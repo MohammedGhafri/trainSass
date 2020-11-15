@@ -1,5 +1,12 @@
-h1{
-    color: blue;
-    display: flex;
-    justify-content: center;
+@import "./variables";
+
+@import "./header";
+
+
+
+.contact {
+    
+    @include flexCenter(row,blue);
+    @extend header ; 
+    background: coral;
 }
