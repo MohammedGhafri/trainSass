@@ -1,18 +1,47 @@
-header {
-  background: lightblue;
+header, .contact {
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: red;
+  height: 100vh;
+  color: #69c91b;
 }
 
-header button {
-  background: #2a6079;
+header button, .contact button {
+  background: #c7b66d;
 }
 
-.contact button {
-  background: #2a6079;
+header button::after, .contact button::after {
+  content: 'Woooow';
+}
+
+.contact {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: blue;
+  background: coral;
 }
 /*# sourceMappingURL=style.css.map */
